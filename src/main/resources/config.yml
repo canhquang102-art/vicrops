@@ -1,0 +1,42 @@
+# ViCrops - cay trong them.
+# Cach dung: cam vat pham "plant-item" trong tay, chuot phai len dat cay (farmland) la trong duoc.
+# "block" la dang cay hien thi (chi dung duoc: WHEAT, CARROTS, POTATOES, BEETROOTS).
+# Cay lon theo co che vanilla (bonemeal, nuoc, ...). Khi cay CHIN, dap ra se roi vat pham duoi day.
+# Dap cay chua chin chi tra lai 1 vat pham de trong lai.
+
+crops:
+  tao:
+    plant-item: APPLE
+    block: POTATOES
+    drop-item: APPLE
+    drop-min: 2
+    drop-max: 4
+    seed-min: 0
+    seed-max: 0
+
+  duong:
+    plant-item: SUGAR
+    block: WHEAT
+    drop-item: SUGAR
+    drop-min: 2
+    drop-max: 5
+    seed-min: 0
+    seed-max: 0
+
+  trung:
+    plant-item: EGG
+    block: BEETROOTS
+    drop-item: EGG
+    drop-min: 1
+    drop-max: 3
+    seed-min: 0
+    seed-max: 0
+
+  vang:
+    plant-item: GOLD_NUGGET
+    block: CARROTS
+    drop-item: GOLD_NUGGET
+    drop-min: 2
+    drop-max: 4
+    seed-min: 0
+    seed-max: 0

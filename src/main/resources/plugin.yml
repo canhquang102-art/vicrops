@@ -1,0 +1,14 @@
+name: ViCrops
+version: '${project.version}'
+main: com.vicrops.ViCropsPlugin
+api-version: '26.1.2'
+description: Them cay trong moi bang vat pham vanilla (chay duoc cho Java + Bedrock qua Geyser)
+commands:
+  vicrops:
+    description: Lenh quan ly ViCrops
+    usage: /vicrops reload
+    permission: vicrops.admin
+permissions:
+  vicrops.admin:
+    description: Dung lenh /vicrops
+    default: op
